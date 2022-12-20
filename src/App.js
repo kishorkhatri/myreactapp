@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Textform from './components/Textform';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     PrivacyPolicyText="Privacy Policy"
     DisclaimerText="Disclaimer"
     />
+    <Textform/>
     </>
   );
 }
